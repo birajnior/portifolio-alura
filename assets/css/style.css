@@ -3,8 +3,8 @@
   --cor-segundaria: #8c6418;
   --cor-terciaria: #d9c6a3;
 
-  --fonte-primaria:"Krona One", sans-serif;
-  --fonte-segundaria:"Montserrat", sans-serif;
+  --fonte-primaria: "Krona One", sans-serif;
+  --fonte-segundaria: "Montserrat", sans-serif;
 }
 
 * {
@@ -19,7 +19,7 @@ body {
 }
 
 .cabecalho {
-  padding: 2% 0% 0% 15%;
+  padding: 2% 0% 0% 10%;
 }
 
 .cabecalho__menu {
@@ -43,7 +43,7 @@ body {
 }
 
 .apresentacao {
-  padding: 5% 15%;
+  padding: 5% 10%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,26 +51,28 @@ body {
 
 .apresentacao__conteudo {
   display: flex;
-  width: 50%;
+  width: 45%;
   flex-direction: column;
   gap: 2.5rem;
 }
 
 .apresentacao__conteudo__titulo {
   font-family: var(--fonte-primaria);
-  font-size: 2.25rem;
+  font-size: 2.1rem;
   font-style: normal;
   line-height: 3.5rem;
 }
 
-.destaque-h1 {
+.destaques {
   color: var(--cor-segundaria);
+  font-weight: 600;
 }
 
 .apresentacao__conteudo__texto {
   font-size: 1.5rem;
   font-family: var(--fonte-segundaria);
   line-height: 2.25rem;
+  font-weight: 400;
 }
 
 .apresentacao__conteudo__links {
@@ -92,7 +94,7 @@ body {
 }
 
 .apresentacao__conteudo__btn {
-  width: 50%;
+  width: 45%;
   text-align: center;
   color: var(--cor-terciaria);
   border-radius: 1rem;
@@ -117,7 +119,12 @@ body {
 }
 
 .apresentacao__imagem {
-  width: 50%;
+  width: 45%;
+}
+
+.apresentacao__imagem__about {
+  width: 45%;
+  border-radius: 12px;
 }
 
 .rodape {
@@ -127,5 +134,5 @@ body {
   text-align: center;
   font-family: var(--fonte-segundaria);
   font-size: 1.2rem;
-  font-weight: 400;
+  font-weight: 550;
 }

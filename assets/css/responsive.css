@@ -1,3 +1,19 @@
+@media (max-width: 1370px) {
+  .cabecalho {
+    padding: 2% 0% 0% 7%;
+  }
+  .apresentacao {
+    padding: 5% 7%;
+  }
+  .apresentacao__conteudo {
+    width: 47%;
+    gap: 2rem;
+  }
+  .apresentacao__conteudo__titulo {
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 1200px) {
   .cabecalho {
     padding: 10%;

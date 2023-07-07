@@ -16,6 +16,7 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Styles -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/responsive.css">
 
@@ -31,7 +32,7 @@
     </nav>
   </header>
   <main class="apresentacao">
-    <section class="apresentacao__conteudo">
+    <section class="apresentacao__conteudo" data-aos="fade-right">
       <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="destaques">com
           um Front-end de
           qualidade!</strong>
@@ -54,8 +55,16 @@
           Instagram</a>
       </div>
     </section>
-    <img class="apresentacao__imagem" src="assets/img/img-home-G.png" alt="Foto Ubiratan Júnior">
+    <img class="apresentacao__imagem" data-aos="fade-up" src="assets/img/img-home-G.png" alt="Foto Ubiratan Júnior">
   </main>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      onde: true,
+    });
+  </script>
+
 </body>
 <footer class="rodape">
   <p>Desenvolvido por Ubiratan Júnior.</p>

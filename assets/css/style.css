@@ -51,7 +51,7 @@ body {
 
 .apresentacao__conteudo {
   display: flex;
-  width: 45%;
+  width: 51%;
   flex-direction: column;
   gap: 2.5rem;
 }
@@ -73,6 +73,7 @@ body {
   font-family: var(--fonte-segundaria);
   line-height: 2.25rem;
   font-weight: 400;
+  text-align: justify;
 }
 
 .apresentacao__conteudo__links {
@@ -119,7 +120,7 @@ body {
 }
 
 .apresentacao__imagem {
-  width: 45%;
+  width: 40%;
 }
 
 .apresentacao__imagem__about {
@@ -135,4 +136,15 @@ body {
   font-family: var(--fonte-segundaria);
   font-size: 1.2rem;
   font-weight: 550;
+}
+
+.conteudo__projects{
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 32px;
+}
+
+.conteudo__projects__images {
+  max-width: 490px;
 }

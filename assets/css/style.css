@@ -108,6 +108,7 @@ body {
   border-radius: 0.5rem;
   border: 0.125rem solid var(--cor-segundaria);
   opacity: 1;
+  cursor: pointer;
 }
 
 .icon-social {
@@ -115,7 +116,6 @@ body {
 }
 
 .apresentacao__conteudo__btn:hover {
-  cursor: pointer;
   opacity: 0.5;
 }
 
@@ -138,13 +138,19 @@ body {
   font-weight: 550;
 }
 
-.conteudo__projects{
+.conteudo__projects {
   display: grid;
-
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
 }
 
 .conteudo__projects__images {
   max-width: 490px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.conteudo__projects__images:hover {
+  -webkit-filter: blur(1.5px);
+  filter: blur(1.5px);
 }

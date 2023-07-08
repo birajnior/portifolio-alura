@@ -1,19 +1,42 @@
+/* Notebook telas maiores */
 @media (max-width: 1370px) {
   .cabecalho {
     padding: 2% 0% 0% 7%;
   }
+
   .apresentacao {
     padding: 5% 7%;
   }
+
   .apresentacao__conteudo {
-    width: 47%;
+    width: 45%;
     gap: 2rem;
   }
+
+  .apresentacao__imagem__about {
+    width: 52%;
+  }
+
   .apresentacao__conteudo__titulo {
     font-size: 2rem;
   }
+
+  .apresentacao__conteudo__texto {
+    font-size: 1.4rem;
+  }
+
+  .conteudo__projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .conteudo__projects__images {
+    max-width: 390px;
+  }
 }
 
+/* Notebook telas menores */
 @media (max-width: 1200px) {
   .cabecalho {
     padding: 10%;
@@ -21,6 +44,7 @@
   .cabecalho__menu {
     justify-content: center;
   }
+
   .apresentacao {
     flex-direction: column-reverse;
     padding: 5% 5%;
@@ -28,5 +52,24 @@
 
   .apresentacao__conteudo {
     width: auto;
+  }
+
+  .apresentacao__imagem{
+    margin-bottom: 35px;
+  }
+
+  .apresentacao__imagem__about {
+    margin-top: 35px;
+  }
+
+  .conteudo__projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    height: 90vh;
+  }
+
+  .conteudo__projects__images {
+    max-width: 300px;
   }
 }

@@ -74,6 +74,33 @@
   }
 }
 
+@media (max-width: 500px) {
+  .cabecalho__menu {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cabecalho__menu__link {
+    font-size: 1.1rem;
+  }
+
+  .apresentacao__conteudo {
+    width: auto;
+  }
+
+  .apresentacao__conteudo__texto {
+    text-align: center;
+  }
+
+  .conteudo__projects__images {
+    max-width: 170px;
+  }
+
+  .rodape {
+    font-size: 1rem;
+  }
+}
+
 @media (max-width: 400px) {
   .cabecalho {
     padding: 8%;
@@ -86,7 +113,7 @@
   .cabecalho__menu__link {
     font-size: 1.1rem;
   }
- 
+
   .apresentacao__conteudo {
     width: auto;
   }

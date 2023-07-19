@@ -118,6 +118,10 @@
     width: auto;
   }
 
+  .apresentacao__conteudo__titulo {
+    font-size: 1.8rem;
+  }
+
   .apresentacao__conteudo__texto {
     text-align: center;
   }

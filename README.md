@@ -6,7 +6,6 @@ Projeto desenvolvido durante a formação A partir do zero: HTML e CSS para proj
   <a href="#-tecnologias">Tecnologias</a>     |    
   <a href="#-projeto">Projeto</a>     |    
   <a href="#-layout">Layout</a>     |    
-  <a href="#memo-licença">Licença</a>
 </p>
 
 <p align="center">
@@ -34,7 +33,3 @@ O projeto apresenta uma página de portfólio contendo as seções "Home", "Sobr
 ## 🔖Layout
 
 O layout do projeto foi feito Pela alura disponibilizado no [ Figma ](https://figma.com) para acessá-lo.
-
-## : memo : Licença
-
-Esse projeto está sob a licença MIT.

@@ -1,5 +1,5 @@
 <p align="center">
-Projeto desenvolvido durante a formação A partir do zero: HTML e CSS para projetos web realizado na [ Alura ](https://www.alura.com.br)  
+Projeto desenvolvido durante a formação A partir do zero: HTML e CSS para projetos web realizado na <a href="https://www.alura.com.br">Alura.</a>
 </p>
 
 <p align="center">
